@@ -28,7 +28,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: drug-catalog-service
   GITOPS_REPO: ${{ vars.GITOPS_REPO }}
-  GITOPS_SERVICE_NAME: catalog-service
+  GITOPS_SERVICE_NAME: drug-catalog-service
 
 jobs:
 
